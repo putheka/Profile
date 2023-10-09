@@ -7,6 +7,7 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
+import CVimg from "../public/CVimg.jpg";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -42,7 +43,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href= "https://drive.google.com/file/d/1Wdmm4Zkoe5-rxdzYg5Ia5Kw1YZg_l8i7/view?usp=sharing"
+                  target="blank"
                 >
                   Resume
                 </a>
@@ -51,7 +53,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Dimitri Marco
+              BoB !
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Developer and designer.
@@ -61,12 +63,18 @@ export default function Home() {
               needs. Join me down below and let's get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
+             <a href="https://www.rd.com/wp-content/uploads/2020/04/DogMeme16.jpg?fit=696%2C696?fit=700,700">
+             <AiFillTwitterCircle />
+             </a>
+              <a href="https://www.rd.com/wp-content/uploads/2020/04/DogMeme16.jpg?fit=696%2C696?fit=700,700">
               <AiFillLinkedin />
-              <AiFillYoutube />
+              </a>
+              <a target="blank" href="https://www.youtube.com/watch?v=Wjavakm7gMQ">
+             <AiFillYoutube />
+              </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={CVimg} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
